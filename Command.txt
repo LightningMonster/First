@@ -9,7 +9,11 @@ Git Commands
 
  #basic nevaigation Commands
     
-    cd directory_name
+    cd directory_name #(Changing working directory)
+    ls (list all files from current directory)
+       ls -a  #(listinf all files from current directory including hidden files)
+    mkdir directory_name  #(creating new directory)
+             
 
  #status:-
   git status  #(to check status of files whether files are modified, not modified, staged or ubtracked)
