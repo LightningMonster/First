@@ -1,0 +1,13 @@
+Git Commands 
+ git config --global user.name "LightningMonster"
+ git config --global user.email "lightningmonster.1548@gmail.com"
+ git config --list
+
+ git clone repo_link
+ git status
+ 
+ git status ~
+    1)Untracked - New file that git doesn't yet tracked(Not uploaded on git)
+    2)Modified - changed (file content is changed)
+    3)Staged - File is resdy to be commited (File is redy to be commited)
+    4)Unmodified - Unchanged (file content is not changed)
