@@ -1,5 +1,5 @@
 Git Commands! 
-__________________________________________________________________________________________________
+ ___________________________________________________________________________________________________
  
  #Configuration:-
 
@@ -7,14 +7,15 @@ ________________________________________________________________________________
   git config --global user.email "lightningmonster.1548@gmail.com"  #(To add email in git config)
   git config --list #(Showing git config file content)
   git clone repo_link  #(Cloning repository from git repo link)
-
+ __________________________________________________________________________________________________
+ 
  #basic nevaigation Commands
     
     cd directory_name #(Changing working directory)
     ls (list all files from current directory)
        ls -a  #(listinf all files from current directory including hidden files)
     mkdir directory_name  #(creating new directory)
-
+ __________________________________________________________________________________________________
 
  #status:-
   git status  #(to check status of files whether files are modified, not modified, staged or ubtracked)
@@ -22,26 +23,30 @@ ________________________________________________________________________________
      2)Modified - changed (file content is changed)
      3)Staged - File is resdy to be commited (File is redy to be commited)
      4)Unmodified - Unchanged (file content is not changed)
+ __________________________________________________________________________________________________
 
-#add:-
- git add  #(adding modified file in uploading line)
+ #add:-
+  git add  #(adding modified file in uploading line)
+ __________________________________________________________________________________________________
+ 
+ #commit:-
+  git commit -m "any msg here" #(saving locally)
+ __________________________________________________________________________________________________
 
-#commit:-
- git commit -m "any msg here" #(saving locally)
+ #push:-
+  git push  #(Uploding on git repository)
+     git push origin main  #(origin - origin is a main repository, main - here main is a branch of origin repo)
+     git push -u origin main  #(-u for setting shortcut for origin main. from next time we can only give the git push command for pushing files in origin main)
+ __________________________________________________________________________________________________
 
-#push:-
- git push  #(Uploding on git repository)
-    git push origin main  #(origin - origin is a main repository, main - here main is a branch of origin repo)
-    git push -u origin main  #(-u for setting shortcut for origin main. from next time we can only give the git push command for pushing files in origin main)
-
-#init:-  #(Used to create a new git repo)
-   git init repo_name  #(Making local repo as a git repo)
-   git remote add origin <link>  #(Linking local repo to git repo)
-   git remote -v  #(To verify remote)
-   git branch     #(To check branch)("master" is a default branch)
-   git branch -M main  #(to raname branch)
-   git push origin main 
-
+ #init:-  #(Used to create a new git repo)
+    git init repo_name  #(Making local repo as a git repo)
+    git remote add origin <link>  #(Linking local repo to git repo)
+    git remote -v  #(To verify remote)
+    git branch     #(To check branch)("master" is a default branch)
+    git branch -M main  #(to raname branch)
+    git push origin main 
+ __________________________________________________________________________________________________
 
    #Workflow:-
 
@@ -55,4 +60,6 @@ ________________________________________________________________________________
                            |
              Commiting file's using commit
                            |
-                  Pushing file's on Git              
+                  Pushing file's on Git      
+ __________________________________________________________________________________________________
+         
