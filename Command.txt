@@ -1,13 +1,31 @@
 Git Commands 
- git config --global user.name "LightningMonster"
- git config --global user.email "lightningmonster.1548@gmail.com"
- git config --list
-
- git clone repo_link
- git status
  
- git status ~
-    1)Untracked - New file that git doesn't yet tracked(Not uploaded on git)
-    2)Modified - changed (file content is changed)
-    3)Staged - File is resdy to be commited (File is redy to be commited)
-    4)Unmodified - Unchanged (file content is not changed)
+ #Configuration:-
+
+  git config --global user.name "LightningMonster" #(To add username in git config)
+  git config --global user.email "lightningmonster.1548@gmail.com"  #(To add email in git config)
+  git config --list #(Showing git config file content)
+  git clone repo_link  #(Cloning repository from git repo link)
+
+ #basic nevaigation Commands
+    
+    cd directory_name
+
+ #status:-
+  git status  #(to check status of files whether files are modified, not modified, staged or ubtracked)
+     1)Untracked - New file that git doesn't yet tracked(Not uploaded on git)
+     2)Modified - changed (file content is changed)
+     3)Staged - File is resdy to be commited (File is redy to be commited)
+     4)Unmodified - Unchanged (file content is not changed)
+
+#add:-
+ git add  #(adding modified file in uploading line)
+
+#commit:-
+ git commit -m "any msg here" #(saving locally)
+
+#push:-
+ git push  #(Uploding on git repository)
+    git push origin main  #(origin - origin is a main repository, main - here main is a branch of origin repo)
+
+#
