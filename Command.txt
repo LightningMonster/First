@@ -1,4 +1,5 @@
-Git Commands 
+Git Commands! 
+__________________________________________________________________________________________________
  
  #Configuration:-
 
@@ -40,3 +41,18 @@ Git Commands
    git branch     #(To check branch)("master" is a default branch)
    git branch -M main  #(to raname branch)
    git push origin main 
+
+
+   #Workflow:-
+
+                  Creating Repo in Git
+                           |
+               Cloning Git repo to Local repo
+                           |
+         Changing file's(Adding new, Modifying, etc.)
+                           |
+       Adding file to upload or saving line using add
+                           |
+             Commiting file's using commit
+                           |
+                  Pushing file's on Git              
