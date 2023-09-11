@@ -62,12 +62,19 @@ Git Commands!
                            |
                   Pushing files on Git      
  __________________________________________________________________________________________________
-         
+ 
+ #Command Cycle:-
+
+      git add .
+      git commit -m "default_msg"
+      git push        
+ __________________________________________________________________________________________________
+ 
  # Branches:-
 
       git branch  #(to check list of branches)
       git branch -M main  #(to rename branch)
-      git checkout <branch_name>  #(going to another branch)
       git checkout -b <branch_name>  #(to create new branch)
+      git checkout <branch_name>  #(going to another branch)
       git branch -d <branch_name>  #(to delete branch)
        
