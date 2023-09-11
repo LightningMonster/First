@@ -77,4 +77,12 @@ Git Commands!
       git checkout -b <branch_name>  #(to create new branch)
       git checkout <branch_name>  #(going to another branch)
       git branch -d <branch_name>  #(to delete branch)
-       
+__________________________________________________________________________________________________
+
+ #Merging code:-
+    *Way 1 (By terminal)
+       git dif <branch_name>  #(to compare commit,branches,files & more)
+       git merge  #(to merge 2 branches)
+    
+    *Way 2 (By GitHub)
+       Pull Request
