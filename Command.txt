@@ -41,7 +41,7 @@ Git Commands!
  __________________________________________________________________________________________________
 
  #init:-  #(Used to create a new git repo)
-    git init repo_name  #(Making local repo as a git repo)
+    git init <repo_name>  #(Making local repo as a git repo)
     git remote add origin <link>  #(Linking local repo to git repo)
     git remote -v  #(To verify remote)
     git branch     #(To check branch)("master" is a default branch)
