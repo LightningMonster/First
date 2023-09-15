@@ -31,6 +31,7 @@ Git Commands!
  
  #commit:-
   git commit -m "any msg here" #(saving locally)
+  git log  #(to check previous commits)
  __________________________________________________________________________________________________
 
  #push:-
@@ -95,4 +96,13 @@ ________________________________________________________________________________
 
  # Undoing changes:-
 
-      #Case 1:   
+      #Case 1: Staged Changes.
+          git reset <file_name>  #(Added but not commited)
+          git reset   
+
+      #Case 2: Commited changes(For one commit)
+          git reset HEAD-1
+
+      #Case 3: Commited changes(For many commits)
+          git reset <commit hash>
+          git reset --hard <commit hash>       
